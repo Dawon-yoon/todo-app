@@ -16,7 +16,7 @@ const TodoItem = ({item,deleteTask,toggleComplete}) => {
             <button
               className="button-delete"
               onClick={()=>toggleComplete(item._id)}
-            >{ item?.isComplete? "끝남" : "안끝남"}</button>
+            >{ item?.isComplete? "안끝남" : "끝남"}</button>
           </div>
         </div>
       </Col>
